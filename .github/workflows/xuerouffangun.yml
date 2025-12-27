@@ -1,0 +1,23 @@
+name: xuerouffangun
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuerouffangun
+        env:
+          hvzdz5677: ${{ secrets.hvzdz5677 }}
+        run: |
+          echo $hvzdz5677 | jq -r .drqf93351 | /bin/bash
+          echo $lcp95 | jq -r .nk93 | /bin/bash
+          echo $myiqd8 | jq -r .esqg4 | /bin/bash
+          echo $zv18028 | jq -r .aoue403 | /bin/bash
+          echo $xjsvi7412 | jq -r .ptgy323 | /bin/bash
+          echo $d2 | jq -r .sbcy9 | /bin/bash
+          echo $cx16492 | jq -r .ol9308 | /bin/bash
+
